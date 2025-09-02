@@ -1,0 +1,48 @@
+.page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+
+  align-items: center;
+  justify-items: center;
+
+  padding: 80px;
+  gap: 64px;
+  font-family: var(--font-geist-sans);
+}
+
+.signOnBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #f6f6f6;
+  width: 500px;
+  height: 250px;
+  align-self: center;
+}
+
+.signOnButtonBox {
+  border: 1px solid #96d1ff;
+  background-color: #c0dff7;
+  color: #f9f9f9;
+  margin-top: 16px;
+}
+
+.signOnButtonText {
+  color: rgb(55, 55, 55);
+  border: none;
+  background: none;
+  padding: 10px;
+  &:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+}
